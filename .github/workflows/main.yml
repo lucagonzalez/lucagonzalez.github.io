@@ -25,7 +25,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: lucagonzalez/lucagonzalez
+          external_repository: lucagonzalez/lucagonzalez.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: lucagonzalez
