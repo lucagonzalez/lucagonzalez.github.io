@@ -34,5 +34,4 @@ Some short codes: :kissing:
 
 {{< notice error >}} There is an error in your code. {{< /notice >}}
 
-![Valencia Sky](/images/sky.jpg)
-
+![Valencia Sky](/images/first-post/sky.jpg)
