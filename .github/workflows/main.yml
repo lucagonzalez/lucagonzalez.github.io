@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
+        on:
+          push:
+            branches:
+              - dev
 
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
@@ -29,6 +33,6 @@ jobs:
           publish_dir: ./public
           #   keep_files: true
           user_name: lucagonzalez
-          user_email: luca.gonzalezp@gmail.com
+          user_email: ${{ secrets.EMAIL }}
           publish_branch: master
         #   cname: example.com
