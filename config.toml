@@ -29,9 +29,16 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 
-customCSS = []
+customCSS = ["/css/custom.css"]
 customSCSS = []
 customJS = []
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.parser]
+        autoHeadingIDType = 'blackfriday'
+        [markup.goldmark.renderer]
+            unsafe = true
 
 [taxonomies]
 category = "categories"
@@ -60,7 +67,7 @@ url = "https://www.linkedin.com/in/lucagonzalez94/"
 [[menu.main]]
 name = "Blog"
 weight = 1
-url  = "posts/"
+url = "posts/"
 [[menu.main]]
 name = "About"
 weight = 2
