@@ -5,15 +5,16 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Git checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 0
+        uses: actions/checkout@v2
+
+      - name: Update theme
+        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+        run: git submodule update --init --recursive
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.108"
+          hugo-version: "0.91.2"
 
       - name: Build
         # remove --minify tag if you do not need it
@@ -28,6 +29,6 @@ jobs:
           publish_dir: ./public
           #   keep_files: true
           user_name: lucagonzalez
-          user_email: luca@jollytechnologies.co.uk
+          user_email: luca.gonzalezp@gmail.com
           publish_branch: master
         #   cname: example.com
