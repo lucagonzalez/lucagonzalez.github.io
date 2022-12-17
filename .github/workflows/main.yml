@@ -33,4 +33,4 @@ jobs:
           user_name: lucagonzalez
           user_email: ${{ secrets.EMAIL }}
           publish_branch: master
-        #   cname: example.com
+          cname: lucagonzalez.com
