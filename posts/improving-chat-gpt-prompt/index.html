@@ -1,19 +1,19 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Improving chatGPT prompts · Luca Gonzalez
+Improving ChatGPT prompts · Luca Gonzalez
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=color-scheme content="light dark">
 <meta name=author content="Luca Gonzalez">
-<meta name=description content="How can we get better results using chatGPT">
+<meta name=description content="How can we get better results using ChatGPT">
 <meta name=keywords content="blog,developer,personal">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Improving chatGPT prompts">
-<meta name=twitter:description content="How can we get better results using chatGPT">
-<meta property="og:title" content="Improving chatGPT prompts">
-<meta property="og:description" content="How can we get better results using chatGPT">
+<meta name=twitter:title content="Improving ChatGPT prompts">
+<meta name=twitter:description content="How can we get better results using ChatGPT">
+<meta property="og:title" content="Improving ChatGPT prompts">
+<meta property="og:description" content="How can we get better results using ChatGPT">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.lucagonzalez.com/posts/improving-chat-gpt-prompt/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-12-30T00:00:00+00:00">
@@ -22,7 +22,7 @@ Improving chatGPT prompts · Luca Gonzalez
 <link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
 <link rel=stylesheet href=/css/coder.min.7f9d180e3b3bebba9ba80d55eed1255c35e00764872854736d6ad7db38884ffc.css integrity="sha256-f50YDjs767qbqA1V7tElXDXgB2SHKFRzbWrX2ziIT/w=" crossorigin=anonymous media=screen>
 <link rel=stylesheet href=/css/coder-dark.min.216e36d3eaf6f4cdfd67dc1200c49a8169e6478102977b3e9ac51a064c57054c.css integrity="sha256-IW420+r29M39Z9wSAMSagWnmR4ECl3s+msUaBkxXBUw=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href=/css/custom.min.d8e4c7ccc806a6af5d98e48dc359208eaa4cef4830dca2ab22ccb105e86ab7ad.css integrity="sha256-2OTHzMgGpq9dmOSNw1kgjqpM70gw3KKrIsyxBehqt60=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=/css/custom.min.b159690962798162d4f9acb7de92e1a6e9dc9846f4fc359c7f9c27976d422b7b.css integrity="sha256-sVlpCWJ5gWLU+ay33pLhpuncmEb0/DWcf5wnl21CK3s=" crossorigin=anonymous media=screen>
 <link rel=icon type=image/png href=/img/favicon-32x32.png sizes=32x32>
 <link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16>
 <link rel=apple-touch-icon href=/images/apple-touch-icon.png>
@@ -67,7 +67,7 @@ Luca Gonzalez
 <div class=post-title>
 <h1 class=title>
 <a class=title-link href=https://www.lucagonzalez.com/posts/improving-chat-gpt-prompt/>
-Improving chatGPT prompts
+Improving ChatGPT prompts
 </a>
 </h1>
 </div>
@@ -87,7 +87,7 @@ December 30, 2022
 <div class=tags>
 <i class="fa fa-tag" aria-hidden=true></i>
 <span class=tag>
-<a href=/tags/chatgpt/>chatGPT</a>
+<a href=/tags/chatgpt/>ChatGPT</a>
 </span>
 <span class=separator>•</span>
 <span class=tag>
@@ -120,9 +120,19 @@ Clarity
 </h3>
 <p>Stating clearly what you want from ChatGPT, as precisely as possible, is an excellent way to get exactly what you want. Making it easy for the chatbot to understand what you mean removes the possibility of any misunderstandings.</p>
 <p>For example, you get different results from these two prompts:</p>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>Write a short description of a rose garden
-</code></pre></div><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>Write a romantic description of a single rose in the middle of a garden
-</code></pre></div><p>On the first prompt, ChatGPT responds technically, explaining precisely what a rose garden is. It even talks about its maintenance and tasks related to it.</p>
+<div class="notice example">
+<div class=notice-title>
+<i class="fa fa-file-text" aria-hidden=true></i>Example
+</div>
+<div class=notice-content>Write a short description of a rose garden</div>
+</div>
+<div class="notice example">
+<div class=notice-title>
+<i class="fa fa-file-text" aria-hidden=true></i>Example
+</div>
+<div class=notice-content>Write a romantic description of a single rose in the middle of a garden</div>
+</div>
+<p>On the first prompt, ChatGPT responds technically, explaining precisely what a rose garden is. It even talks about its maintenance and tasks related to it.</p>
 <p>Meanwhile, on the second prompt, ChatGPT knows it needs to generate something romantic about one single rose in the garden. It fills the response with adjectives and describes what one would feel by looking at a garden with a single rose standing out.</p>
 <h3 id=emphasis>
 Emphasis
@@ -151,12 +161,15 @@ Context
 <p>Giving a specific context can help ChatGPT generate responses that are more compelling to us. It knows how specific professions or age groups would respond to the prompt, making it easier to get detailed responses based on our expectations.</p>
 <p><strong>Impersonation</strong></p>
 <p>An excellent way to give ChatGPT some context is to ask it to impersonate some profession or specific characters that can be created in the conversation, for example:</p>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>You now must respond as to how Steven would respond. Steven is a romance writer that loves flowers. He is a good writer that has written poetry in the past but now focuses on novels. He loves to give precise details about the scenes he writes about.
-
-Me: Hey Steve! Could you describe a red rose that stands out in a rose garden that is receiving the sunlight from the sunset?
-
-Steve:
-</code></pre></div><p>This is a helpful way to fine-tune the responses to our prompts and make them more precise.</p>
+<div class="notice example">
+<div class=notice-title>
+<i class="fa fa-file-text" aria-hidden=true></i>Example
+</div>
+<div class=notice-content><p>You now must respond as to how Steven would respond. Steven is a romance writer that loves flowers. He is a good writer that has written poetry in the past but now focuses on novels. He loves to give precise details about the scenes he writes about.</p>
+<p>Me: Hey Steve! Could you describe a red rose that stands out in a rose garden that is receiving the sunlight from the sunset?</p>
+<p>Steve:</p></div>
+</div>
+<p>This is a helpful way to fine-tune the responses to our prompts and make them more precise.</p>
 <h2 id=what-to-avoid>
 What to avoid
 <a class=heading-link href=#what-to-avoid>
