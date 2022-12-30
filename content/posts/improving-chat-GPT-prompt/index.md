@@ -1,9 +1,9 @@
 +++
 author = "Luca Gonzalez"
-title = "Improving chatGPT prompts"
+title = "Improving ChatGPT prompts"
 date = "2022-12-30"
-description = "How can we get better results using chatGPT"
-tags = [ "chatGPT", "AI" ]
+description = "How can we get better results using ChatGPT"
+tags = [ "ChatGPT", "AI" ]
 +++
 
 # Creating prompts
@@ -18,13 +18,13 @@ Stating clearly what you want from ChatGPT, as precisely as possible, is an exce
 
 For example, you get different results from these two prompts:
 
-```
+{{< notice example >}}
 Write a short description of a rose garden
-```
+{{< /notice >}}
 
-```
+{{< notice example >}}
 Write a romantic description of a single rose in the middle of a garden
-```
+{{< /notice >}}
 
 On the first prompt, ChatGPT responds technically, explaining precisely what a rose garden is. It even talks about its maintenance and tasks related to it.
 
@@ -54,13 +54,13 @@ Giving a specific context can help ChatGPT generate responses that are more comp
 
 An excellent way to give ChatGPT some context is to ask it to impersonate some profession or specific characters that can be created in the conversation, for example:
 
-```
+{{< notice example >}}
 You now must respond as to how Steven would respond. Steven is a romance writer that loves flowers. He is a good writer that has written poetry in the past but now focuses on novels. He loves to give precise details about the scenes he writes about.
 
 Me: Hey Steve! Could you describe a red rose that stands out in a rose garden that is receiving the sunlight from the sunset?
 
 Steve:
-```
+{{< /notice >}}
 
 This is a helpful way to fine-tune the responses to our prompts and make them more precise.
 
