@@ -33,6 +33,9 @@ customCSS = ["/css/custom.css"]
 customSCSS = []
 customJS = []
 
+[params.goatCounter]
+code = "j4ck1t0"
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.parser]
