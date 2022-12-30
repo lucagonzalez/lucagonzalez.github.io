@@ -2,6 +2,7 @@
 author = "Luca Gonzalez"
 title = "First Post"
 date = "2022-12-16"
+expiryDate = "2022-12-17"
 description = "First post, trying to figure out Hugo"
 tags = [ "first", "testing" ]
 +++
