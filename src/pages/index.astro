@@ -1,0 +1,91 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import {SITE_TITLE, SITE_DESCRIPTION} from '../consts';
+import PhotoAndMedia from "../components/PhotoAndMedia.astro";
+import Card from "../components/Card.astro";
+import Timezone from "../components/Timezone.astro";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+    </head>
+    <body>
+        <Header/>
+        <main class="w-full sm:mt-24 min-h-dvh flex flex-col items-start">
+            <Card>
+                <div class="flex flex-col space-y-6 lg:flex-row justify-between items-center">
+                    <div class="space-y-4 text-justify basis-3/4">
+                        <div class="text-left">
+                            <h1 class="text-3xl font-bold">Hi, I’m Luca! <span class="wave">👋</span></h1>
+                            <p class="text-gray-500 font-medium text-md">Backend Developer | Full Stack Developer |
+                                Product Enthusiast</p>
+                        </div>
+
+                        <p class="text-gray-700">
+                            🌍 I’ve collaborated on diverse projects, such as tailored dashboards for African
+                            initiatives and EdTech projects to empower learners all across the globe.
+                        </p>
+
+                        <p class="text-gray-700">
+                            😎 I thrive on collaborating with cross-functional teams to translate complex
+                            requirements into intuitive, impactful solutions. I’m passionate about continuous learning,
+                            clean
+                            code, and delivering exceptional user experiences.
+                        </p>
+
+                        <p class="text-gray-700">
+                            💡 I’m all about leveraging tech for impact. <span
+                                class="font-bold">Let’s connect!</span>
+                        </p>
+                    </div>
+                    <PhotoAndMedia/>
+                </div>
+            </Card>
+            <div class="mt-6 flex flex-col space-y-4 md:space-y-0 md:grid md:grid-cols-3 md:gap-4 w-full max-w-7xl mx-auto">
+                <Card>
+                    <div class="text-left">
+                        <p class="text-3xl font-bold">Projects</p>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li>
+                            <a class="text-gray-600 hover:text-blue-500"
+                               href="https://github.com/lucagonzalez/quake_destroyer" target="_blank">Quake
+                                Destroyer</a>
+                        </li>
+                    </ul>
+                </Card>
+                <Card>
+                    <Timezone></Timezone>
+                </Card>
+                <Card>
+                    <div class="text-left">
+                        <p class="text-3xl font-bold">Experience</p>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2">
+                        <li class="text-gray-700">
+                            Backend developer
+                            <p class="text-gray-300 text-md">
+                                <a class="text-gray-300 hover:text-blue-500"
+                                   href="https://jollytechnologies.co.uk" target="_blank">Jolly Technologies</a> |
+                                03/2024 - 12/2024
+                            </p>
+                        </li>
+                        <li class="text-gray-700">
+                            Full-stack developer
+                            <p class="text-gray-300 text-md">
+                                <a class="text-gray-300 hover:text-blue-500"
+                                   href="https://jollytechnologies.co.uk" target="_blank">Jolly Technologies</a> |
+                                03/2022 - 03/2024
+                            </p>
+                        </li>
+                    </ul>
+                </Card>
+            </div>
+        </main>
+        <Footer/>
+    </body>
+</html>

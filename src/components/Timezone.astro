@@ -1,0 +1,23 @@
+---
+---
+<div class="text-left">
+    <p class="text-3xl font-bold">My local time</p>
+    <p class="text-gray-500 font-medium text-md">🇪🇸 Valencia, España 🇪🇸</p>
+    <p class="text-xl" id="timezone-time"/>
+</div>
+<script>
+    import moment from 'moment-timezone';
+    // This will run on the client
+    const updateTime = () => {
+        const timezone = 'Europe/Madrid'; // Change this to your desired timezone
+        const now = moment.tz(timezone);
+        const formattedTime = now.format('dddd, DD MMMM YYYY HH:mm:ss');
+        const timezoneTimeElement = document.getElementById('timezone-time');
+        if (timezoneTimeElement) {
+            timezoneTimeElement.textContent = formattedTime;
+        }
+    };
+
+    setInterval(updateTime, 1000);
+    updateTime();
+</script>
