@@ -9,4 +9,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     site: 'https://lucagonzalez.com',
     integrations: [mdx(), sitemap(), tailwind()],
+    build: {
+        assets: "assets"
+    }
 });
