@@ -28,6 +28,11 @@
           "name": "heroImage",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "boolean"
         }
       ]
     }
