@@ -10,3 +10,6 @@ This is going to be my second post. I have no idea what I will talk about in her
 Kotlin back to Java, as someone who hasn't used Java like, at all.
 
 I think this will be a great post to write and will help me understand both languages better.
+
+I can also write about my gratitude API, when I have at least a 1.0 version done. I think that will take a bit tho, I
+ain't progressing much to be fair.
