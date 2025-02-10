@@ -5,3 +5,6 @@ pubDate: Feb 5 2025
 heroImage: /first-post/8D7418CE-5860-45E8-9D6C-C6BF5BA2AF4A_1_105_c.jpeg
 draft: true
 ---
+
+This is going to be my second post. I have no idea what I will talk about in here, probably my experience of going from
+Kotlin back to Java, as someone who hasn't used Java like, at all.
