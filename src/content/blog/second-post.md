@@ -13,3 +13,9 @@ I think this will be a great post to write and will help me understand both lang
 
 I can also write about my gratitude API, when I have at least a 1.0 version done. I think that will take a bit tho, I
 ain't progressing much to be fair.
+
+But I think that's fine, look at the day I had today. Almost 6hrs drive, barely slept, loads of new information coming
+along... It's fucking bonkers.
+
+One thing I have to say tho, I'm liking this, like, a lot. It's a proper company I'll work for. Loads of employees,
+corporate ladder all set up, it seems so nice...
