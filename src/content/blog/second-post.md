@@ -8,3 +8,5 @@ draft: true
 
 This is going to be my second post. I have no idea what I will talk about in here, probably my experience of going from
 Kotlin back to Java, as someone who hasn't used Java like, at all.
+
+I think this will be a great post to write and will help me understand both languages better.
