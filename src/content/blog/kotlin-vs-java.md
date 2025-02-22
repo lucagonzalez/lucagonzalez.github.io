@@ -1,8 +1,8 @@
 ---
 title: Kotlin vs Java
 description: A post about my experience moving from Kotlin to Java
-pubDate:
-heroImage:
+pubDate: Feb 5 2025
+heroImage: AHeroImage
 draft: true
 ---
 
